@@ -1,0 +1,27 @@
+@import './Colors.scss';
+@import './Footer.scss';
+@import './Header.scss';
+@import './Home.scss';
+@import './MovieCard.scss';
+@import './MovieDetails.scss';
+@import './MoviesList.scss';
+@import './PageNotFound.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: $primary-color;
+}
+
+.container {
+    margin: 0px 40px;
+}
