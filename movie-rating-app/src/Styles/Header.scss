@@ -14,4 +14,27 @@
         height: 32px;
         width: 32px;
     }
+    .search-bar {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        form {
+            display: flex;
+            justify-content: center;
+            width: 70%;
+            input {
+                font-size: 18px;
+                width: 100%;
+                padding: 5px 5px 5px 10px;
+                height: 38px;
+                outline: none;
+            }
+            button {
+                padding: 0 8px;
+                font-size: 20px;
+                cursor: pointer;
+                height: 38px;
+        }
+    }
+}
 }
